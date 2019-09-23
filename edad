@@ -1,0 +1,18 @@
+#Larisa Carolina "Edad"
+
+year = 2018
+month = 9
+
+
+año = int(input("Ingrese su año de nacimiento: "))
+mes = int(input("Ingrese su mes de nacimiento: "))
+
+
+
+if mes > month:
+    año_Nacimiento = year - año
+    print(f"Usted tiene {año_Nacimiento} años")
+else:
+    year += 1
+    año_Nacimiento = year - año
+    print(f"Usted tiene {año_Nacimiento} años")

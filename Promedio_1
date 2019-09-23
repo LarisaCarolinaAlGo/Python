@@ -1,0 +1,14 @@
+# Larisa Alvarez
+print ("Bienvenido a la plataforma -El reprobadito-")
+
+#Inputs
+print("Danos tu calificación de tus 3 primeros parciales de Matemáticas:")
+parcial1 = float(input("Parcial 1: "))
+parcial2 = float(input("Parcial 2: "))
+parcial3 = float(input("Parcial 3: "))
+
+#Proceso
+promedio = (parcial1+parcial2+parcial3) / 3
+
+#Output
+print("Tu promedio fue de: " + str(promedio))

@@ -1,0 +1,15 @@
+#Larisa Álvarez
+
+#Inputs
+cantidad = int(input("Ingrese la cantidad: "))
+#Proceso
+billete200 = cantidad // 200
+cantidad = cantidad % 200
+billete50 = cantidad // 50
+cantidad = cantidad % 50
+billete20 = cantidad // 20
+cantidad = cantidad % 20
+moneda = cantidad // 1
+cantidad = cantidad % 1
+#Output
+print(f"billetes de 200: {billete200}, billetes de 50: {billete50}, billetes de 20: {billete20}, y monedas: {moneda}")

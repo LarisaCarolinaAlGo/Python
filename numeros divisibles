@@ -1,0 +1,14 @@
+#Larisa Álvarez
+
+#Inputs
+num = float(input("Ingrese el numoro que quiere dividir: "))
+divisor = float(input("Ingrese el número por el que lo quiere dividir: "))
+
+#Proceso
+resultado = num / divisor
+
+if num % divisor == 0:
+     print(f"Tu resultado es de {resultado}, y tu número si es divisible.")
+else:
+    print(f"Tu resultado es de {resultado}, y tu número no es divisible.")
+#Output

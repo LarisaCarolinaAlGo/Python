@@ -1,0 +1,9 @@
+#Larisa Álvarez
+#Inputs
+consumo = float(input("Ingrese el consumo:"))
+propina = float(input("Escriba el porcentaje a dar de propina:"))
+#Proceso
+propina2 = (consumo*propina)/100
+total = (propina2+consumo)
+#Output
+print ("Su total a pagar es de: " + str(total))

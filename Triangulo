@@ -1,0 +1,9 @@
+# Carolina Alvarez
+print("Hola, bienvenido a -Has tu tri angulito-")
+# Inputs
+base = int(input("Dinos tu base:"))
+altura = int(input("Dinos la altura:"))
+#Proceso
+area = (base*altura) / 2
+#Output
+print ("Tu area es de: ", area)
